@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <install type="component" version="1.5.0">
- <name>SphinxSearch</name>
+ <name>SphinxSearch</name> 
  <!-- The following elements are optional and free of formatting constraints -->
  <creationDate>2011-04-04</creationDate>
  <author>Ivinco</author>
