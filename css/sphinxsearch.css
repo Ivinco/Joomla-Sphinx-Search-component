@@ -1,0 +1,103 @@
+.sphinx-search-form .sphinx-query {
+	margin-top: 20px;
+	margin-left: 20%;
+	width: 60%;
+}
+
+.sphinx-search-form .sphinx-query input {
+	width: 80%;
+}
+
+.sphinx-search-form .sphinx-search-button {
+
+}
+
+.sphinx-search-form .sphinx-advanced-link {
+	margin-left: 20%;
+	padding-left: 2px;
+	font-size: 90%;
+}
+
+.sphinx-search-result-form .sphinx-query {
+	width: 100%;
+	white-space: nowrap;
+}
+
+.sphinx-search-result-form .sphinx-query input {
+	width: 90%;
+}
+
+.sphinx-search-result-form .sphinx-search-button {
+	width: 10%;
+}
+
+.sphinx-search-result-form .sphinx-advanced-link {
+	float: right;
+	font-size: 90%;
+	margin-right: -4px;
+}
+
+.sphinx-total-results {
+	left: 0;
+	display: inline;
+	font-size: 90%;
+}
+
+.sphinx-no-results {
+	padding-top: 20px;
+	clear: right;
+}
+
+.sphinx-results {
+	padding-top: 20px;
+	clear: right;
+}
+
+.sphinx-result {
+	margin-bottom: 16px;
+}
+
+.sphinx-result-title {
+	font-size: 140%;
+	margin-bottom: 2px;
+}
+
+.sphinx-result-date {
+	color: #666;
+}
+
+.sphinx-date-label {
+	margin-right: 8px;
+}
+
+.sphinx-result-description {
+
+}
+
+.sphinx-result-location {
+	color: #999999;
+}
+
+.sphinx-virtuemart-results {
+	width: 100%;
+	padding-top: 20px;
+	clear: right;
+}
+
+.sphinx-virtuemart-result {
+	padding-bottom: 16px;
+	vertical-align: top;
+}
+
+.sphinx-virtuemart-thumb {
+	width: 100px;
+}
+
+.sphinx-virtuemart-price {
+	text-align: right;
+	font-weight: bold;
+}
+
+.sphinx-virtuemart-currency {
+	padding-right: 0;
+}
