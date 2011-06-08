@@ -36,6 +36,7 @@ defined('_JEXEC') or die('Restricted access');
 // Require the base controller
 
 require_once(JPATH_COMPONENT.DS.'controller.php');
+require_once(JPATH_ROOT.DS."components".DS."com_sphinxsearch".DS."sphinxapi.php");
 
 // Require specific controller if requested
 if(true == ($controller = JRequest::getWord('controller'))) {

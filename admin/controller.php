@@ -60,11 +60,34 @@ class SphinxSearchController extends JController
 
     function display()
     {
-	$model = $this->getModel(JRequest::getWord("view"));
+	$viewParam =  JRequest::getWord("view");
 
-	$view = $this->getView(JRequest::getWord("view"), JRequest::getWord("format", "html"));
-	$view->setModel($model, true);
+        if (empty($viewParam)){
+            $viewParam = 'configuration';
+        }
+        $view = $this->getView($viewParam, JRequest::getWord("format", "html"));
 
-	$view->display();
+        if ('configuration' == $viewParam) {
+            $model = $this->getModel($viewParam);
+            $view->setModel($model, true);
+
+            //check sphinx is up
+            $view->sphinxRunning = $this->_checkSphinxConnection();
+        }
+        $view->display();
+    }
+
+    function _checkSphinxConnection()
+    {
+        $configuration = new SphinxSearchConfig();
+        $client = new SphinxClient();
+        $client->SetServer($configuration->hostname, (int)$configuration->port);
+        $client->Open();
+        $error = $client->GetLastError();
+        $running = false;
+        if (empty ($error)){
+            $running = true;
+        }
+        return $running;
     }
 }

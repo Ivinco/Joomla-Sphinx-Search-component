@@ -37,3 +37,4 @@ defined('_JEXEC') or die('Restricted access'); ?>
 		<input type="text" name="q" id="q" class="inputbox"/><button type="submit" class="sphinx-search-button">Search</button>
 	</div>
 </form>
+

@@ -57,6 +57,18 @@ JToolBarHelper::cancel();
         <div id="page-site" style="display: block;">
             <table class="noshow">
             <tbody>
+            <?php if (false == $this->sphinxRunning):?>
+            <tr>
+                <td width="65%">
+                    <dl id="system-message">
+                    <dt class="error">Error</dt>
+                    <dd class="error message fade">
+                        <ul><li>Sphinx Search is not running on <?php echo $this->getModel()->getParam("hostname"); ?>.</li></ul>
+                    </dd>
+                    </dl>
+                </td>
+            </tr>
+            <?php endif; ?>
             <tr>
                 <td width="65%">
                     <fieldset class="adminform">
