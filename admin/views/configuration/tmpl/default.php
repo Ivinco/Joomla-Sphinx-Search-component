@@ -63,7 +63,10 @@ JToolBarHelper::cancel();
                     <dl id="system-message">
                     <dt class="error">Error</dt>
                     <dd class="error message fade">
-                        <ul><li>Sphinx Search is not running on <?php echo $this->getModel()->getParam("hostname"); ?>.</li></ul>
+                        <ul><li>Sphinx Search is not running on <?php echo $this->getModel()->getParam("hostname"); ?>.
+                            See <a href="http://www.ivinco.com/software/joomla-sphinx-search-component-tutorial/#installation">installation instruction</a>.
+                            </li>
+                        </ul>
                     </dd>
                     </dl>
                 </td>
