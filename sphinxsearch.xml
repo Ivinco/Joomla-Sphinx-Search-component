@@ -12,6 +12,8 @@
  <version>0.0.1</version>
  <!-- The description is optional and defaults to the name -->
  <description>Joomla Sphinx search component enables the Sphinx-powered search with high-performance and more relevant search results</description>
+ <installfile>install.sphinxsearch.php</installfile>
+ <uninstallfile>uninstall.sphinxsearch.php</uninstallfile>
 
  <!-- Site Main File Copy Section -->
  <files folder="site">
@@ -41,6 +43,7 @@
     <files folder="admin">
         <folder>models</folder>
         <folder>views</folder>
+	<folder>extensions</folder>
         <filename>controller.php</filename>
         <filename>sphinxsearch.php</filename>
         <filename>configuration.php</filename>
