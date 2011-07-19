@@ -9,9 +9,9 @@
  <copyright>Copyright Info</copyright>
  <license>License Info</license>
  <!--  The version string is recorded in the components table -->
- <version>0.0.1</version>
+ <version>0.0.2</version>
  <!-- The description is optional and defaults to the name -->
- <description>Joomla Sphinx search component enables the Sphinx-powered search with high-performance and more relevant search results</description>
+ <description>Joomla Sphinx search component enables the Sphinx-powered search with high-performance and more relevant search results. Included 6 search plugins for each type of content.</description>
  <installfile>install.sphinxsearch.php</installfile>
  <uninstallfile>uninstall.sphinxsearch.php</uninstallfile>
 
