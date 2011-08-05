@@ -37,7 +37,7 @@ Provide Sphinx Search plugins  for:
 
 ### Installation
 
-
+Check out installation instruction at [tutorial](http://www.ivinco.com/software/joomla-sphinx-search-component-tutorial "Joomla Sphinx Search tutorial page") page. 
 
 ### Support
 This component is developed by [Ivinco](http://www.ivinco.com "Ivinco High performance search solutions"). If you need commercial support, or if you’d like Joomla Sphinx Search component customized for your needs, [we can help](http://www.ivinco.com/contact-us/ "Ivinco contact").
