@@ -1,6 +1,8 @@
 Joomla Sphinx Search component tutorial
 ========
 
+This is fork of [https://github.com/Ivinco/Joomla-Sphinx-Search-component](https://github.com/Ivinco/Joomla-Sphinx-Search-component)
+
 Description
 --------
 Joomla Sphinx search component enables the Sphinx-powered search with high-performance and more relevant search results.
